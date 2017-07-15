@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+
+html { 
+    background: () no-repeat center center fixed; 
+    background-size: cover;
+    z-index: 0;
+}
+
+body{
+    margin: 0;
+}
+
+.top-bar{
+    height: 60px;
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    background: rgba(204, 238, 255,0.5);
+    margin-top: 0px;
+}
+
+.top-bar li{
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.title{
+    font-family: 'Passion One', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    float: left;
+    height: 25px;
+    position: relative;
+}
+
+.btn-title{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-title:visited{
+    color: black;
+}
+
+.log-in{
+    float: right;
+    text-align: right;
+    padding-right: 20px;
+    position: relative;
+    bottom: 3px;
+}
+
+.btn-log{
+    text-decoration: none;
+    border: 3px solid #c1d7d7;
+    border-radius: 5px;
+    background: #eff5f5;
+    padding: 5px 15px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.btn-log:visited{
+    color: black;
+}
+
+.wallpaper{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    background: url(https://i.ytimg.com/vi/BfAWqkatQVw/maxresdefault.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 0px;
+}
+
+.wallpaper ul{
+    margin: 0px;
+}
+
+.wallpaper li{
+    display: block;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.navigation{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    right: 20px;
+}
+
+.navigation li{
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    margin: auto;
+    margin-top: 3px;
+    text-align: center;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border: 3px solid DeepSkyBlue;
+    background: gold;
+    font-family: 'Francois One', sans-serif;
+    font-size: 28px;
+}
+
+#btn-recordings, #btn-sheet-music, #btn-contact, #btn-sign-up{
+    color: white;
+    text-decoration: none;
+}
+
+#btn-recordings:hover, #btn-sheet-music:hover, #btn-contact:hover, #btn-sign-up:hover{
+    background-color: #ffe866;
+}
+
+#btn-recordings:visited, #btn-sheet-music:visited, #btn-contact:visited, #btn-sign-up:visited{
+    color: white;
+}
+
+#btn-recordings{
+    padding: 12px 24px;
+    position: relative;
+    right: 1px;
+    bottom: 1.5px;
+}
+
+#btn-sheet-music{
+    padding: 12px 19px;
+    position: relative;
+    bottom: 1px;
+    left: 0.5px;
+}
+
+#btn-contact{
+    padding: 12px 45px;
+    position: relative;
+    right: 1px;
+    bottom: 1px;
+}
+
+#btn-sign-up{
+    padding: 12px 49px;
+    position: relative;
+    bottom: 1px;
+    left: 0.5px;
+}
+
+.home{
+    z-index: 99;
+    background: white;
+    text-align: left;
+    margin: auto;
+    padding-left: 20px;
+    max-width: 700px;
+}
+
+.greeting{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    margin: auto;
+}
+
+.header{
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: lowercase;
+    margin: auto;
+}
+
+.content{
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: auto;
+}
+
+.donate{
+    margin: auto;
+    text-align: center;
+}
+
+.donate-btn{
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid white;
+    background: #66b3ff;
+    color: white;
+}
+
+.donate-btn:hover{
+    background-color: #99ccff;
+}
+
+.donate-btn:visited{
+    color: white;
+}
